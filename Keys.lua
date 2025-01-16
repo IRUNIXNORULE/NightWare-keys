@@ -98,10 +98,6 @@ UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.Padding = UDim.new(0, 5)
 
-UIListLayout:GetPropertyChangedSignal('AbsoluteContentSize'):Connect(function()
-    ScrollingFrame.CanvasSize = UDim2.formOffset(0,UIListLayout.AbsoluteContentSize.Y)
-end)
-
 Close.MouseButton1Click:Connect(function()
     ScreenGui.Enabled = false
 end)
@@ -254,7 +250,7 @@ local add = {
 
 add.header("Keys")
 
-add.text("This is the script that give you the link of free keys")
+add.text("This is the script that give you the link of free keys (Open console to see)")
 
 local textlabel = add.text("https://nightware.fun/key-list/")
 
