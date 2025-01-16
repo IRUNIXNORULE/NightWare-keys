@@ -252,7 +252,7 @@ local add = {
 
 -----------------------------------------
 
-add.header("! Free NightMare Executor Key !")
+add.header("! Free Nightware Executor Key !")
 
 add.text("This is the script that give you the link of free keys")
 
