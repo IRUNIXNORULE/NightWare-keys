@@ -39,7 +39,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.5, 0, 0.0663265288, 0)
 TextLabel.Size = UDim2.new(0, 515, 0, 39)
 TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "Alchemy Hub"
+TextLabel.Text = "FREE KEYS"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 18.000
 
@@ -252,18 +252,13 @@ local add = {
 
 -----------------------------------------
 
-add.header("! Free Nightware Executor Key !")
+add.header("Keys")
 
 add.text("This is the script that give you the link of free keys")
 
 local textlabel = add.text("https://nightware.fun/key-list/")
 
-add.button("Change Text",function()
-    textlabel.new("https://nightware.fun/key-list/")
-end)
-
-
-add.header("Automatic")
+add.header("Functions")
 
 add.button("Click Me",function()
     print("https://nightware.fun/key-list/")
