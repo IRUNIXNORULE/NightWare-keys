@@ -39,7 +39,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.5, 0, 0.0663265288, 0)
 TextLabel.Size = UDim2.new(0, 515, 0, 39)
 TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "FREE KEYS"
+TextLabel.Text = "Free Keys ( For NightWare executor )"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 18.000
 
