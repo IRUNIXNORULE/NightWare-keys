@@ -250,7 +250,7 @@ local add = {
 
 add.header("Keys")
 
-add.text("This is the script that give you the link of free keys (Open console to see)")
+add.text("One of the Free keys : IDKBRO")
 
 local textlabel = add.text("https://nightware.fun/key-list/")
 
